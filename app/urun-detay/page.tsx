@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { Package, Droplet, Clock, Ruler, Shield, Leaf, ThermometerSun, Wind, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function ProductDetailPage() {
@@ -117,8 +118,8 @@ export default function ProductDetailPage() {
               <span className="text-gradient">Ürün Detayları</span>
             </h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: 'var(--text-medium)' }}>
-              <strong>Mango çubuklu oda kokusu</strong> hakkında <em>bilmeniz gereken</em> 
-              <u>tüm detaylar</u> burada.
+              <Link href="/" className="text-gradient hover:underline"><strong>Mango çubuklu oda kokusu</strong></Link> hakkında <em>bilmeniz gereken</em> 
+              <u>tüm detaylar</u> burada. <Link href="/hakkimizda" className="text-gradient hover:underline">Hakkımızda</Link> sayfamızı ziyaret edin veya <Link href="/iletisim" className="text-gradient hover:underline">bize ulaşın</Link>.
             </p>
           </motion.div>
         </div>

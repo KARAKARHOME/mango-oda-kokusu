@@ -14,25 +14,25 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://mangoodakokusu.com.tr'),
   title: {
-    default: "Mango Çubuklu Oda Kokusu 100ml | Tropikal Ferahlık | KARAKAR HOME",
-    template: "%s | Mango Oda Kokusu"
+    default: "Mango Çubuklu Oda Kokusu 100ml | Bambu Çubuklu | Tropikal Ferahlık",
+    template: "%s | Mango Çubuklu Oda Kokusu"
   },
-  description: "Tropikal mango aroması ile evinize ferahlık katın. 100ml şişede sunulan premium kalite çubuklu oda kokusu. Uzun süre kalıcı, doğal ve zararsız formül. Pendik İstanbul'dan hızlı kargo.",
+  description: "Tropikal mango aroması ile evinize ferahlık katın. 100ml şişede sunulan premium kalite bambu çubuklu oda kokusu. Uzun süre kalıcı, doğal ve zararsız formül. 3 ay kesintisiz koku deneyimi.",
   keywords: [
     "mango oda kokusu",
     "çubuklu oda kokusu",
+    "bambu çubuklu oda kokusu",
     "tropikal oda kokusu",
     "mango aroması",
     "ev kokusu",
     "oda parfümü",
     "100ml oda kokusu",
-    "KARAKAR HOME",
     "kalıcı oda kokusu",
     "doğal oda kokusu"
   ],
-  authors: [{ name: "KARAKAR HOME" }],
-  creator: "KARAKAR HOME",
-  publisher: "KARAKAR HOME",
+  authors: [{ name: "Mango Oda Kokusu" }],
+  creator: "Mango Oda Kokusu",
+  publisher: "Mango Oda Kokusu",
   formatDetection: {
     email: false,
     address: false,

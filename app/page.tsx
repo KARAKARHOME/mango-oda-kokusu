@@ -190,9 +190,9 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg md:text-xl mb-8 leading-relaxed" style={{ color: 'var(--text-medium)' }}>
-                <strong>Bambu çubuklarla donatılmış</strong> tropikal mango oda kokusu, evinize <em>egzotik bir atmosfer</em> katar. 
-                100ml premium formül ile <u>3 ay kesintisiz</u> ferahlık deneyimi yaşayın. Doğal bambu çubuklar sayesinde 
-                koku evinizin her köşesine eşit şekilde yayılır.
+                <strong>Bambu çubuklarla donatılmış</strong> tropikal <Link href="/urun-detay" className="text-gradient hover:underline">mango oda kokusu</Link>, evinize <em>egzotik bir atmosfer</em> katar. 
+                100ml premium formül ile <u>3 ay kesintisiz</u> ferahlık deneyimi yaşayın. <Link href="/hakkimizda" className="text-gradient hover:underline">Doğal bambu çubuklar</Link> sayesinde 
+                koku evinizin her köşesine eşit şekilde yayılır. <Link href="/iletisim" className="text-gradient hover:underline">İletişime geçin</Link> ve detaylı bilgi alın.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -315,7 +315,7 @@ export default function HomePage() {
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-medium)' }}>
               <strong>Tropikal meyvelerin kralı</strong> olarak bilinen mango, <em>ferahlatıcı ve enerji verici</em> 
-              özellikleriyle yaşam alanlarınıza <u>pozitif enerji</u> katar.
+              özellikleriyle yaşam alanlarınıza <u>pozitif enerji</u> katar. <Link href="/urun-detay" className="text-gradient hover:underline">Ürün detaylarını</Link> inceleyin.
             </p>
           </motion.div>
 

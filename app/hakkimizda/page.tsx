@@ -29,10 +29,10 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: '2018', title: 'Kuruluş', desc: 'KARAKAR HOME markası hayata geçti' },
-    { year: '2019', title: 'Büyüme', desc: 'Ürün gamı genişletildi' },
-    { year: '2021', title: 'Yenilik', desc: 'Mango serisi piyasaya sürüldü' },
-    { year: '2024', title: 'Liderlik', desc: 'Sektörde öncü marka konumuna ulaştık' }
+    { year: '2018', title: 'Kuruluş', desc: 'Mango oda kokusu üretimi başladı' },
+    { year: '2019', title: 'Büyüme', desc: 'Bambu çubuklu ürün gamı genişletildi' },
+    { year: '2021', title: 'Yenilik', desc: 'Premium mango serisi piyasaya sürüldü' },
+    { year: '2024', title: 'Liderlik', desc: 'Tropikal oda kokuları sektöründe öncü marka olduk' }
   ];
 
   const features = [
@@ -63,7 +63,7 @@ export default function AboutPage() {
               className="inline-block px-4 py-2 rounded-full glass-effect mb-6"
             >
               <span className="text-sm font-medium" style={{ color: 'var(--mango-primary)' }}>
-                KARAKAR HOME Hikayesi
+                Mango Oda Kokusu Hikayesi
               </span>
             </motion.div>
 
@@ -71,8 +71,8 @@ export default function AboutPage() {
               <span className="text-gradient">Hakkımızda</span>
             </h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: 'var(--text-medium)' }}>
-              <strong>Yaşam alanlarınıza değer katmak</strong> için yola çıktık. <em>Premium kalite oda kokuları</em> 
-              ile evlerinize <u>ferahlık ve huzur</u> getiriyoruz.
+              <strong>Yaşam alanlarınıza değer katmak</strong> için yola çıktık. <Link href="/urun-detay" className="text-gradient hover:underline">Premium kalite bambu çubuklu oda kokuları</Link> 
+              ile evlerinize <u>ferahlık ve huzur</u> getiriyoruz. <Link href="/iletisim" className="text-gradient hover:underline">Bizimle iletişime geçin</Link> ve <Link href="/" className="text-gradient hover:underline">ürünlerimizi</Link> keşfedin.
             </p>
           </motion.div>
 

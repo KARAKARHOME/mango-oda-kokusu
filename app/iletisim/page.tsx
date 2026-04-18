@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, MessageCircle, Send } from 'lucide-react';
 
 export default function ContactPage() {
@@ -94,8 +95,8 @@ export default function ContactPage() {
               <span className="text-gradient">İletişim</span>
             </h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: 'var(--text-medium)' }}>
-              <strong>Sorularınız için</strong> <em>her zaman yanınızdayız</em>. 
-              <u>İletişim kanallarımızdan</u> bize ulaşabilirsiniz.
+              <Link href="/urun-detay" className="text-gradient hover:underline"><strong>Mango oda kokusu</strong></Link> hakkında <em>sorularınız için</em> her zaman yanınızdayız. 
+              <Link href="/" className="text-gradient hover:underline">Ana sayfamızı</Link> ziyaret edin veya <Link href="/hakkimizda" className="text-gradient hover:underline">hakkımızda</Link> daha fazla bilgi edinin.
             </p>
           </motion.div>
 
