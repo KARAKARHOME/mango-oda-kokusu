@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mango Çubuklu Oda Kokusu - Website
 
-## Getting Started
+Premium kalite mango çubuklu oda kokusu için özel olarak tasarlanmış, SEO optimize edilmiş Next.js web sitesi.
 
-First, run the development server:
+## 🌟 Özellikler
+
+- **SEO Optimizasyonu**: Tam kapsamlı meta etiketler, Open Graph, Twitter Cards
+- **Structured Data**: JSON-LD ile zengin snippet desteği
+- **Mobil Uyumlu**: Responsive tasarım, tüm cihazlarda mükemmel görünüm
+- **Animasyonlar**: Framer Motion ile akıcı ve etkileyici animasyonlar
+- **Performans**: Next.js App Router ile optimize edilmiş yükleme hızı
+- **Erişilebilirlik**: WCAG standartlarına uygun
+
+## 🚀 Kurulum
 
 ```bash
+# Bağımlılıkları yükle
+npm install
+
+# Geliştirme sunucusunu başlat
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Production build oluştur
+npm run build
+
+# Production sunucusunu başlat
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Proje Yapısı
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+mango-oda-kokusu/
+├── app/
+│   ├── page.tsx              # Ana sayfa
+│   ├── hakkimizda/           # Hakkımızda sayfası
+│   ├── urun-detay/           # Ürün detay sayfası
+│   ├── iletisim/             # İletişim sayfası
+│   ├── layout.tsx            # Root layout
+│   ├── globals.css           # Global stiller
+│   └── sitemap.ts            # Sitemap
+├── components/
+│   ├── Header.tsx            # Header bileşeni
+│   ├── Footer.tsx            # Footer bileşeni
+│   └── StructuredData.tsx    # JSON-LD structured data
+└── public/
+    ├── robots.txt            # Robots.txt
+    └── images/               # Görseller
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Tasarım
 
-## Learn More
+- **Renkler**: Mango temasına uygun ferah, iç açıcı renk paleti
+- **Tipografi**: Inter font ailesi
+- **Animasyonlar**: Framer Motion ile benzersiz geçişler
+- **Bileşenler**: Glassmorphism efektleri, gradient arka planlar
 
-To learn more about Next.js, take a look at the following resources:
+## 🔍 SEO Özellikleri
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Meta etiketler (title, description, keywords)
+- Open Graph protokolü
+- Twitter Cards
+- JSON-LD structured data (Organization, Product, LocalBusiness, FAQ, Breadcrumb)
+- Sitemap.xml
+- Robots.txt
+- Canonical URL'ler
+- GEO etiketleri
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Sayfalar
 
-## Deploy on Vercel
+1. **Ana Sayfa**: Ürün tanıtımı, özellikler, faydalar
+2. **Hakkımızda**: Şirket hikayesi, değerler, misyon
+3. **Ürün Detayı**: Teknik özellikler, kullanım talimatları, SSS
+4. **İletişim**: İletişim bilgileri, sosyal medya, harita
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Canlı Site
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Domain**: mangoodakokusu.com.tr
+- **Ana Site**: https://www.karakarhome.com.tr
+
+## 📞 İletişim
+
+- **Telefon**: +90 545 181 4040
+- **E-Posta**: info@mangosabunodakokusu.com.tr
+- **Adres**: Esenyalı Mah. Edebali Cad. No:13/A 34903 Pendik / İstanbul
+
+## 🔧 Teknolojiler
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
+
+## 📄 Lisans
+
+© 2024 KARAKAR HOME. Tüm hakları saklıdır.

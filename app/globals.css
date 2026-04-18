@@ -1,26 +1,81 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --mango-primary: #FF9933;
+    --mango-secondary: #FFB84D;
+    --mango-accent: #FFC966;
+    --mango-light: #FFE5B3;
+    --mango-cream: #FFF8E7;
+    --fresh-green: #8BC34A;
+    --soft-coral: #FF7043;
+    --warm-peach: #FFAB91;
+    --sky-blue: #4FC3F7;
+    --lavender: #BA68C8;
+    --text-dark: #2C3E50;
+    --text-medium: #546E7A;
+    --text-light: #78909C;
+    --background: #FFFBF5;
+    --foreground: #2C3E50;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--mango-secondary);
+  color: white;
+}
+
+.gradient-mango {
+  background: linear-gradient(135deg, var(--mango-primary) 0%, var(--mango-secondary) 50%, var(--mango-accent) 100%);
+}
+
+.gradient-fresh {
+  background: linear-gradient(135deg, var(--fresh-green) 0%, var(--sky-blue) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--mango-primary), var(--soft-coral));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.shadow-mango {
+  box-shadow: 0 10px 40px rgba(255, 153, 51, 0.2);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(255, 153, 51, 0.3);
 }
